@@ -1,3 +1,21 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore environment files (credentials, keys)
 .env
+
+# Ignore downloaded videos and extracted frames
 downloaded_videos/
 extracted_frames/
+
+# Ignore model checkpoints, logs (optional but common)
+checkpoints/
+logs/
+
+# Ignore Jupyter notebook checkpoints if using notebooks
+.ipynb_checkpoints/
+
+# Ignore system files (Mac & Windows)
+.DS_Store
+Thumbs.db
