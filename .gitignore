@@ -19,3 +19,6 @@ logs/
 # Ignore system files (Mac & Windows)
 .DS_Store
 Thumbs.db
+
+# Ignore virtual environment
+.venv/
